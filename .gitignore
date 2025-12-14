@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files (large datasets - don't commit to git)
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.pkl
+*.csv
+
+# Model files (can be large)
+models/*.pkl
+models/*.h5
+models/*.pt
+models/*.pth
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports (generated files)
+reports/*.pdf
+reports/*.pptx
+
+# Figures (generated - optional, can commit some examples)
+# reports/figures/*.png
+# reports/figures/*.jpg
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Keep directory structure
+!.gitkeep
