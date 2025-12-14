@@ -27,9 +27,10 @@ wheels/
 .ipynb_checkpoints
 *.ipynb_checkpoints/
 
-# Data files (large datasets)
+# Data files (large datasets - don't commit to git)
 data/raw/*.csv
 data/processed/*.csv
+data/processed/*.pkl
 *.csv
 
 # Model files (can be large)
@@ -54,11 +55,18 @@ env/
 .DS_Store
 Thumbs.db
 
-# Reports (generated)
+# Reports (generated files)
 reports/*.pdf
 reports/*.pptx
+
+# Figures (generated - optional, can commit some examples)
+# reports/figures/*.png
+# reports/figures/*.jpg
 
 # Temporary files
 tmp/
 temp/
 *.tmp
+
+# Keep directory structure
+!.gitkeep
