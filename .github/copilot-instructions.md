@@ -64,7 +64,14 @@ disaster-prediction-2018-2024/
 
 ### Dataset Features (12 original)
 1. `date` - Disaster occurrence date (2018-2024)
-2. `country` - 20 countries globally
+2. `country` - 20 countries across 6 continents:
+   - **North America:** United States, Canada, Mexico
+   - **South America:** Brazil, Chile
+   - **Europe:** France, Germany, Greece, Spain, Italy, Turkey
+   - **Asia:** India, China, Bangladesh, Japan
+   - **Southeast Asia:** Indonesia, Philippines
+   - **Africa:** Nigeria, South Africa
+   - **Oceania:** Australia
 3. `disaster_type` - 10 types: Earthquake, Extreme Heat, Hurricane, Wildfire, Flood, Storm Surge, Drought, Tornado, Landslide, Volcanic Eruption
 4. `severity_index` - Severity level (1-10)
 5. `casualties` - Number of people affected
